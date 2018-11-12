@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import TodoItem from './TodoItem';
 
+// TODO一覧を表示するためのコンポーネント
 class TodoList extends Component {
     render() {
         // tasks内の各todoをTodoItemコンポーネントを用いてエレメントにしている。

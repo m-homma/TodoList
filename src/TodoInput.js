@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+// TODOの入力及び追加をするコンポーネント
 class TodoInput extends Component {
     constructor(props) {
         super(props);

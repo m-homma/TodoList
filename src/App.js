@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 import TodoInput from './TodoInput';
 import TodoList from './TodoList';
-//import logo from './logo.svg';
-//import './App.css';
 
+// アプリ全体をまとめるコンポーネント
 class App extends Component {
 
   constructor(props) {
@@ -51,23 +50,6 @@ class App extends Component {
         <TodoInput addTodo={this.addTodo} />
         <TodoList tasks={this.state.tasks} />
       </div>
-      /*<div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>Hello World!</p>
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>*/
     );
   }
 }
